@@ -1,0 +1,212 @@
+@media (min-width:768px) and (max-width:1150px)
+{
+  main
+  {
+    width: 100%!important;
+
+    .card
+    {
+      width: 450px!important;
+      height: 790px!important;
+      flex-direction: column-reverse;
+      &__info
+      {
+        margin: 0 auto!important;
+        position: relative!important;
+        bottom: 290px!important;
+        text-align: center;
+        
+        &--desc
+        {
+          position: relative;
+          top:10px;
+          bottom: 0;
+        }
+       
+      }
+      &__stats
+      {
+        width : 100%;
+        position: absolute!important;
+        top: 190px!important;
+        flex-direction: column!important;
+        align-items: center;
+        div
+        {
+          margin-bottom: 30px;
+          p
+          {
+            text-align:center;
+          }
+          h2
+          {
+            text-align:center;
+          }
+        }
+      }
+
+      .imgBox
+      {
+        width: 100%!important;
+        height: 318px!important;
+        background-image: url("../../../images/image-header-mobile.jpg")!important;
+        background-position: center !important;
+        background-size: cover!important;
+        border-radius: 10px 10px 0 0!important;
+        
+        &:before 
+       {
+        top: 0px !important;
+        right: 0px !important;
+        left: 0px !important;
+        bottom: 472px !important;
+        border-radius: 10px 10px 0 0 !important;
+       }
+      }
+    }
+  }
+}
+
+
+
+@media (max-width: 425px)
+{
+  main
+  {
+    width: 100%!important;
+
+    .card
+    {
+      width: 350px!important;
+      height: 800px!important;
+      flex-direction: column-reverse;
+      &__info
+      {
+        width: 300px!important;
+        margin: 0 auto!important;
+        position: relative!important;
+        bottom: 270px!important;
+        text-align: center;
+        
+        &--desc
+        {
+          position: relative;
+          top:10px;
+          bottom: 0;
+        }
+       
+      }
+      &__stats
+      {
+        width : 100%;
+        position: absolute!important;
+        top: 230px!important;
+        flex-direction: column!important;
+        align-items: center;
+        div
+        {
+          margin-bottom: 20px;
+          p
+          {
+            text-align:center;
+          }
+          h2
+          {
+            text-align:center;
+          }
+        }
+      }
+
+      .imgBox
+      {
+        width: 100%!important;
+        height: 318px!important;
+        background-image: url("../../../images/image-header-mobile.jpg")!important;
+        background-position: center !important;
+        background-size: cover!important;
+        border-radius: 10px 10px 0 0!important;
+        
+        &:before 
+       {
+        top: 0px !important;
+        right: 0px !important;
+        left: 0px !important;
+        bottom: 482px !important;
+        border-radius: 10px 10px 0 0 !important;
+       }
+      }
+    }
+  }
+}
+
+
+
+@media (max-height: 790px)
+{
+  main
+  {
+    width: 100%!important;
+
+    .card
+    {
+      width: 350px!important;
+      height: 630px!important;
+      flex-direction: column-reverse;
+      &__info
+      {
+        width: 300px!important;
+        margin: 0 auto!important;
+        position: relative!important;
+        bottom: 230px!important;
+        text-align: center;
+        
+        &--desc
+        {
+          position: relative;
+          top:10px;
+          bottom: 0;
+        }
+       
+      }
+      &__stats
+      {
+        width : 100%;
+        position: absolute!important;
+        top: 210px!important;
+        flex-direction: column!important;
+        align-items: center;
+        div
+        {
+          margin-bottom: 20px;
+          p
+          {
+            text-align:center;
+          }
+          h2
+          {
+            text-align:center;
+          }
+        }
+      }
+
+      .imgBox
+      {
+        width: 100%!important;
+        height: 200px!important;
+        background-image: url("../../../images/image-header-mobile.jpg")!important;
+        background-position: center !important;
+        background-size: cover!important;
+        border-radius: 10px 10px 0 0!important;
+        
+        &:before 
+       {
+        top: 0px !important;
+        right: 0px !important;
+        left: 0px !important;
+        bottom: 430px !important;
+        border-radius: 10px 10px 0 0 !important;
+       }
+      }
+    }
+  }
+}
