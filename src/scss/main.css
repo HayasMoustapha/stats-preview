@@ -1,22 +1,30 @@
 @import url("https://fonts.googleapis.com/css2? family= Lexend+Deca & display=swap");
 @import url("https://fonts.googleapis.com/css2? family= Lexend+Deca & display=swap");
-@media (min-width: 768px) and (max-width: 1150px) {
+@media only screen and (max-width: 425px) {
   main {
     width: 100% !important;
   }
   main .card {
-    width: 450px !important;
-    height: 790px !important;
+    width: 85% !important;
+    height: 85% !important;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
   main .card__info {
+    width: 80% !important;
     margin: 0 auto !important;
     position: relative !important;
-    bottom: 290px !important;
+    bottom: 38% !important;
     text-align: center;
+  }
+  main .card__info h1 {
+    font-size: 1.5em;
+  }
+  main .card__info p {
+    position: initial !important;
+    margin-top: 8%;
   }
   main .card__info--desc {
     position: relative;
@@ -26,7 +34,7 @@
   main .card__stats {
     width: 100%;
     position: absolute !important;
-    top: 190px !important;
+    top: 120% !important;
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
         -ms-flex-direction: column !important;
@@ -36,7 +44,7 @@
             align-items: center;
   }
   main .card__stats div {
-    margin-bottom: 30px;
+    margin-bottom: 10%;
   }
   main .card__stats div p {
     text-align: center;
@@ -46,7 +54,7 @@
   }
   main .card .imgBox {
     width: 100% !important;
-    height: 318px !important;
+    height: 30% !important;
     background-image: url("../../../images/image-header-mobile.jpg") !important;
     background-position: center !important;
     background-size: cover !important;
@@ -56,132 +64,27 @@
     top: 0px !important;
     right: 0px !important;
     left: 0px !important;
-    bottom: 472px !important;
+    bottom: 70% !important;
     border-radius: 10px 10px 0 0 !important;
   }
 }
 
-@media (max-width: 425px) {
-  main {
-    width: 100% !important;
-  }
+@media (min-width: 768px) and (max-width: 1024px) {
   main .card {
-    width: 350px !important;
-    height: 800px !important;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    width: 95% !important;
   }
   main .card__info {
-    width: 300px !important;
-    margin: 0 auto !important;
-    position: relative !important;
-    bottom: 270px !important;
-    text-align: center;
+    margin: 8% 5% !important;
   }
-  main .card__info--desc {
-    position: relative;
-    top: 10px;
-    bottom: 0;
-  }
-  main .card__stats {
-    width: 100%;
-    position: absolute !important;
-    top: 230px !important;
-    -webkit-box-orient: vertical !important;
-    -webkit-box-direction: normal !important;
-        -ms-flex-direction: column !important;
-            flex-direction: column !important;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  main .card__stats div {
-    margin-bottom: 20px;
-  }
-  main .card__stats div p {
-    text-align: center;
-  }
-  main .card__stats div h2 {
-    text-align: center;
+  main .card__info h1 {
+    font-size: 1.79rem !important;
   }
   main .card .imgBox {
-    width: 100% !important;
-    height: 318px !important;
-    background-image: url("../../../images/image-header-mobile.jpg") !important;
-    background-position: center !important;
-    background-size: cover !important;
-    border-radius: 10px 10px 0 0 !important;
+    width: 51% !important;
+    margin-left: 5% !important;
   }
   main .card .imgBox:before {
-    top: 0px !important;
-    right: 0px !important;
-    left: 0px !important;
-    bottom: 482px !important;
-    border-radius: 10px 10px 0 0 !important;
-  }
-}
-
-@media (max-height: 790px) {
-  main {
-    width: 100% !important;
-  }
-  main .card {
-    width: 350px !important;
-    height: 630px !important;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-  }
-  main .card__info {
-    width: 300px !important;
-    margin: 0 auto !important;
-    position: relative !important;
-    bottom: 230px !important;
-    text-align: center;
-  }
-  main .card__info--desc {
-    position: relative;
-    top: 10px;
-    bottom: 0;
-  }
-  main .card__stats {
-    width: 100%;
-    position: absolute !important;
-    top: 210px !important;
-    -webkit-box-orient: vertical !important;
-    -webkit-box-direction: normal !important;
-        -ms-flex-direction: column !important;
-            flex-direction: column !important;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  main .card__stats div {
-    margin-bottom: 20px;
-  }
-  main .card__stats div p {
-    text-align: center;
-  }
-  main .card__stats div h2 {
-    text-align: center;
-  }
-  main .card .imgBox {
-    width: 100% !important;
-    height: 200px !important;
-    background-image: url("../../../images/image-header-mobile.jpg") !important;
-    background-position: center !important;
-    background-size: cover !important;
-    border-radius: 10px 10px 0 0 !important;
-  }
-  main .card .imgBox:before {
-    top: 0px !important;
-    right: 0px !important;
-    left: 0px !important;
-    bottom: 430px !important;
-    border-radius: 10px 10px 0 0 !important;
+    left: 56% !important;
   }
 }
 
