@@ -45,12 +45,15 @@
   }
   main .card__stats div {
     margin-bottom: 10%;
+    margin-top: 5%;
   }
   main .card__stats div p {
     text-align: center;
+    font-size: 0.8rem !important;
   }
   main .card__stats div h2 {
     text-align: center;
+    font-size: 1.4rem !important;
   }
   main .card .imgBox {
     width: 100% !important;
