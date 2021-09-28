@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2? family= Lexend+Deca & display=swap");
 @import url("https://fonts.googleapis.com/css2? family= Lexend+Deca & display=swap");
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 767px) {
   main {
     width: 100% !important;
   }
@@ -20,11 +20,13 @@
     text-align: center;
   }
   main .card__info h1 {
-    font-size: 1.5em;
+    font-size: 1.3rem;
   }
   main .card__info p {
     position: initial !important;
-    margin-top: 8%;
+    margin-top: 5%;
+    font-size: 0.7rem !important;
+    line-height: 1.3rem !important;
   }
   main .card__info--desc {
     position: relative;
@@ -45,19 +47,18 @@
   }
   main .card__stats div {
     margin-bottom: 10%;
-    margin-top: 5%;
   }
   main .card__stats div p {
     text-align: center;
-    font-size: 0.8rem !important;
+    font-size: 0.7rem !important;
   }
   main .card__stats div h2 {
     text-align: center;
-    font-size: 1.4rem !important;
+    font-size: 1.2rem !important;
   }
   main .card .imgBox {
     width: 100% !important;
-    height: 30% !important;
+    height: 35% !important;
     background-image: url("../../../images/image-header-mobile.jpg") !important;
     background-position: center !important;
     background-size: cover !important;
@@ -67,7 +68,7 @@
     top: 0px !important;
     right: 0px !important;
     left: 0px !important;
-    bottom: 70% !important;
+    bottom: 65% !important;
     border-radius: 10px 10px 0 0 !important;
   }
 }
@@ -88,6 +89,25 @@
   }
   main .card .imgBox:before {
     left: 56% !important;
+  }
+}
+
+@media only screen and (max-height: 750px) {
+  main .card__info h1 {
+    font-size: 1.1rem !important;
+  }
+  main .card__info--desc {
+    line-height: 1rem !important;
+  }
+  main .card__stats div {
+    margin-bottom: 5% !important;
+  }
+  main .card__stats div h2 {
+    margin-bottom: 2% !important;
+    font-size: 1rem !important;
+  }
+  main .card__stats div p {
+    font-size: 0.7rem !important;
   }
 }
 
